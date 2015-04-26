@@ -1,10 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 # functions 'makeCacheatrix' and 'cacheSolve' allow caching of a matrix' inverse,
 # and finding the inverse by returning the cached value if it exists.
 
-## Write a short comment describing this function
 # function 'makeCacheMatrix' gets as input matrix 'x' and outputs an object which is a 
 # list of four functions: 'set' and 'get' to set and get the matrix value, and 'setinv' 
 # and 'getinv' to set and get the matrix' inverse.
@@ -24,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 # function 'cacheSolve' gets as value a cached matrix 'x' (an object created 
 # by 'makeCacheMatrix' function), and returns its inverse. if the inverse was 
 # not computed beforehand, it computes its value and caches it in 'x'. if it 
